@@ -1,6 +1,6 @@
 # Edit Distance: Greedy vs Dynamic Programming (Levenshtein)
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Python](https://img.shields.io/badge/Python-3-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-latest-purple)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-latest-green)
 ![Seaborn](https://img.shields.io/badge/Seaborn-latest-blueviolet)
