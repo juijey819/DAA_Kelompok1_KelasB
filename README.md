@@ -33,7 +33,7 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 ├── Rill-Fake dataset           # Dataset pasangan kata (Rill–Fake)
 ├── results.csv                 # Hasil perbandingan Greedy vs DP
 ├── greedy_mistakes.json        # Kasus di mana Greedy tidak optimal
-├── DAA_Kelompok1.ipynb         # Implementasi projek
+├── DAA-Kelompok1.ipynb         # Implementasi projek
 └── README.md
 ```
 
@@ -48,13 +48,6 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 - **pandas**: pengolahan dan analisis dataset
 - **matplotlib**: visualisasi grafik waktu eksekusi dan error
 - **seaborn**: visualisasi heatmap pola kesalahan
-
-### Lingkungan
-
-- Platform: **Google Colab**
-- Eksekusi: **CPU (tanpa akselerasi GPU)**
-- Memori: kapasitas standar Google Colab
-
 ---
 ## 🧪 Metodologi Eksperimen
 
@@ -71,7 +64,7 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 
 1. Unggah seluruh file proyek ke Google Colab atau Google Drive.
 2. Pastikan file `indonesian-words.txt` berada pada direktori yang sama dengan notebook.
-3. Buka file `notebook.ipynb` menggunakan Google Colab.
+3. Buka file `DAA-Kelompok1.ipynb` menggunakan Google Colab.
 4. Jalankan seluruh sel secara berurutan dari atas ke bawah.
 5. Hasil eksperimen (CSV, JSON, dan visualisasi) akan otomatis dihasilkan.
 
@@ -91,7 +84,7 @@ cd DAA_Kelompok1_KelasB
 pip install pandas matplotlib seaborn
 ```
 
-4. Jalankan notebook atau skrip Python utama (`DAA_Kelompok1.ipynb`).
+4. Jalankan notebook atau skrip Python utama (`DAA-Kelompok1.ipynb`).
 5. Sesuaikan path file input bila diperlukan.
 
 ---
