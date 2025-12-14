@@ -28,7 +28,7 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 ├── Kampus UNS                  # Dataset pasangan kata (Rill–Fake)
 ├── results.csv                 # Hasil perbandingan Greedy vs DP
 ├── greedy_mistakes.json        # Kasus di mana Greedy tidak optimal
-├── notebook.ipynb              # Implementasi dan eksperimen
+├── projek.ipynb              # Implementasi dan eksperimen
 └── README.md
 ```
 
@@ -86,7 +86,7 @@ cd DAA_Kelompok1_KelasB
 pip install pandas matplotlib seaborn
 ```
 
-4. Jalankan notebook atau skrip Python utama (`notebook.ipynb`).
+4. Jalankan notebook atau skrip Python utama (`projek.ipynb`).
 5. Sesuaikan path file input bila diperlukan.
 
 ---
