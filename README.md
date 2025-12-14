@@ -76,8 +76,8 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 2. Clone repositori ini menggunakan Git:
 
 ```bash
-git clone https://github.com/username/nama-repositori.git
-cd nama-repositori
+git clone https://github.com/juijey819/DAA_Kelompok1_KelasB
+cd DAA_Kelompok1_KelasB
 ```
 
 3. Instal dependensi yang dibutuhkan:
