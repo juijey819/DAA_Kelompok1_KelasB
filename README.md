@@ -5,6 +5,11 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-latest-green)
 ![Seaborn](https://img.shields.io/badge/Seaborn-latest-blueviolet)
 
+## Anggota Kelompok:
+1. Ahnaf Sega Fausta (L0224048)
+2. Jalu Agil Nugroho (L0224032)
+3. Irfan Akmal Muzakki (L0224049)
+
 ---
 ## 📌 Gambaran Umum
 
@@ -25,10 +30,10 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 
 ```
 ├── indonesian-words.txt        # Dataset kata Bahasa Indonesia
-├── Kampus UNS                  # Dataset pasangan kata (Rill–Fake)
+├── Rill-Fake dataset           # Dataset pasangan kata (Rill–Fake)
 ├── results.csv                 # Hasil perbandingan Greedy vs DP
 ├── greedy_mistakes.json        # Kasus di mana Greedy tidak optimal
-├── projek.ipynb              # Implementasi dan eksperimen
+├── DAA_Kelompok1.ipynb         # Implementasi projek
 └── README.md
 ```
 
@@ -86,7 +91,7 @@ cd DAA_Kelompok1_KelasB
 pip install pandas matplotlib seaborn
 ```
 
-4. Jalankan notebook atau skrip Python utama (`projek.ipynb`).
+4. Jalankan notebook atau skrip Python utama (`DAA_Kelompok1.ipynb`).
 5. Sesuaikan path file input bila diperlukan.
 
 ---
