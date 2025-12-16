@@ -33,8 +33,8 @@ DAA_Kelompok1_KelasB/
 ├── DAA-Kelompok1.ipynb/     # Implementasi proyek dalam notebook
 │ ├── data/                  # Dataset
 │ │ ├── indonesian-words.txt
-│ ├── generate_instances.py  # Generator instance (Rill–Fake)
-│ ├── run.py                 # Benchmark Greedy vs DP
+│── generate_instances.py  # Generator instance (Rill–Fake)
+│── run.py                 # Benchmark Greedy vs DP
 └── README.md
 ```
 
