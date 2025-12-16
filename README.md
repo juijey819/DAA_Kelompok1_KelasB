@@ -11,14 +11,14 @@
 3. Irfan Akmal Muzakki (L0224049)
 
 ---
-## 📌 Gambaran Umum
+## Gambaran Umum
 
 Repositori ini berisi implementasi dan eksperimen perbandingan **Algoritma Greedy Edit Distance** dan **Edit Distance berbasis Dynamic Programming (Levenshtein)**. Proyek ini bertujuan untuk menganalisis perbedaan **efisiensi waktu eksekusi** dan **kualitas solusi** (optimalitas jarak edit) antara pendekatan heuristik greedy dan pendekatan optimal berbasis dynamic programming.
 
 Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia (kata asli dan kata hasil mutasi), kemudian membandingkan hasil jarak edit, waktu eksekusi, serta pola kesalahan algoritma greedy menggunakan visualisasi grafik, scatter plot, dan heatmap.
 
 ---
-## 🎯 Tujuan Proyek
+## Tujuan Proyek
 
 - Membandingkan waktu eksekusi algoritma Greedy dan Dynamic Programming.
 - Mengukur selisih hasil jarak edit (optimality gap) antara Greedy dan solusi optimal (DP).
@@ -26,19 +26,20 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 - Menunjukkan konsekuensi penggunaan pendekatan heuristik pada masalah pencocokan string.
 
 ---
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 ```
-├── indonesian-words.txt        # Dataset kata Bahasa Indonesia
-├── Rill-Fake dataset           # Dataset pasangan kata (Rill–Fake)
-├── results.csv                 # Hasil perbandingan Greedy vs DP
-├── greedy_mistakes.json        # Kasus di mana Greedy tidak optimal
-├── DAA-Kelompok1.ipynb         # Implementasi projek
+DAA_Kelompok1_KelasB/
+├── DAA-Kelompok1.ipynb/     # Implementasi proyek dalam notebook
+│ ├── data/                  # Dataset
+│ │ ├── indonesian-words.txt
+│ ├── generate_instances.py  # Generator instance (Rill–Fake)
+│ ├── run.py                 # Benchmark Greedy vs DP
 └── README.md
 ```
 
 ---
-## ⚙️ Implementasi Teknis
+## Implementasi Teknis
 
 ### Bahasa dan Pustaka
 
@@ -49,7 +50,7 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 - **matplotlib**: visualisasi grafik waktu eksekusi dan error
 - **seaborn**: visualisasi heatmap pola kesalahan
 ---
-## 🧪 Metodologi Eksperimen
+## Metodologi Eksperimen
 
 1. Dataset dibangkitkan dari daftar kata Bahasa Indonesia dengan proses mutasi acak (insert, delete, substitute).
 2. Setiap pasangan kata diuji menggunakan algoritma Greedy dan Dynamic Programming.
@@ -58,17 +59,9 @@ Eksperimen dilakukan dengan membangkitkan dataset pasangan kata Bahasa Indonesia
 5. Selisih hasil Greedy dan DP dianalisis menggunakan scatter plot dan heatmap.
 
 ---
-## 🚀 Cara Menjalankan
+## Cara Menjalanka
 
-### Opsi 1: Menggunakan Google Colab (Direkomendasikan)
-
-1. Unggah seluruh file proyek ke Google Colab atau Google Drive.
-2. Pastikan file `indonesian-words.txt` berada pada direktori yang sama dengan notebook.
-3. Buka file `DAA-Kelompok1.ipynb` menggunakan Google Colab.
-4. Jalankan seluruh sel secara berurutan dari atas ke bawah.
-5. Hasil eksperimen (CSV, JSON, dan visualisasi) akan otomatis dihasilkan.
-
-### Opsi 2: Menjalankan Secara Lokal (Python)
+### Menjalankan Secara Lokal (Python)
 
 1. Pastikan Python 3 telah terpasang.
 2. Clone repositori ini menggunakan Git:
@@ -84,21 +77,23 @@ cd DAA_Kelompok1_KelasB
 pip install pandas matplotlib seaborn
 ```
 
-4. Jalankan notebook atau skrip Python utama (`DAA-Kelompok1.ipynb`).
-5. Sesuaikan path file input bila diperlukan.
+4. Bangkitkan dataset (`python generate_instances.py`).
+5. Buka run.py (`python run.py`).
+6. Sesuaikan untuk path dataset indonesian-words.txt. Jika diperlukan.
+7. Opsional, jalankan (`DAA-Kelompok1.ipynb`) jika ingin melihat implementasi lengkap beserta visualisasi      grafik.
 
 ---
 
-## 📈 Output dan Visualisasi
+## Output dan Visualisasi
 
-- **results.csv**: hasil jarak edit Greedy dan DP
-- **greedy_mistakes.json**: daftar kasus Greedy tidak optimal
-- Grafik perbandingan waktu eksekusi
-- Scatter plot magnitude error
-- Heatmap distribusi kesalahan Greedy terhadap panjang string
+- **results.csv**: hasil jarak edit Greedy dan DP.
+- **greedy_mistakes.json**: daftar kasus Greedy tidak optimal.
+- Grafik perbandingan waktu eksekusi (Pada `DAA-Kelompok1.ipynb`).
+- Scatter plot magnitude error (Pada `DAA-Kelompok1.ipynb`).
+- Heatmap distribusi kesalahan Greedy terhadap panjang string (Pada `DAA-Kelompok1.ipynb`).
 
 ---
-## 📚 Dataset
+## Dataset
 
 Dataset kata Bahasa Indonesia diperoleh dari repositori publik:
 
@@ -107,7 +102,7 @@ https://github.com/damzaky/kumpulan-kata-bahasa-indonesia-KBBI
 Dataset digunakan sebagai sumber kata asli dan dimodifikasi untuk membentuk instance uji khusus penelitian ini.
 
 ---
-## ⚖️ Etika dan Lisensi
+## Etika dan Lisensi
 
 Dataset yang digunakan bersifat publik dan tidak mengandung data pribadi. Seluruh data digunakan untuk keperluan akademik dan penelitian, dengan mencantumkan sumber secara eksplisit sebagai bentuk kepatuhan terhadap etika akademik.
 
